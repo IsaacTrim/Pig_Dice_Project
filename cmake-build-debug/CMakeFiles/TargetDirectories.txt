@@ -1,3 +1,3 @@
-/home/administrator/CLionProjects/Pig_Dice_Project/cmake-build-debug/CMakeFiles/Pig_Dice_Project.dir
-/home/administrator/CLionProjects/Pig_Dice_Project/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/administrator/CLionProjects/Pig_Dice_Project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Isaac/CLionProjects/Pig_Dice_Project/cmake-build-debug/CMakeFiles/Pig_Dice_Project.dir
+C:/Users/Isaac/CLionProjects/Pig_Dice_Project/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Isaac/CLionProjects/Pig_Dice_Project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
