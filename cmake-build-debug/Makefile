@@ -128,6 +128,30 @@ Pig_Dice_Project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pig_Dice_Project.dir\build.make CMakeFiles/Pig_Dice_Project.dir/build
 .PHONY : Pig_Dice_Project/fast
 
+Pig_Dice_functions.obj: Pig_Dice_functions.cpp.obj
+.PHONY : Pig_Dice_functions.obj
+
+# target to build an object file
+Pig_Dice_functions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pig_Dice_Project.dir\build.make CMakeFiles/Pig_Dice_Project.dir/Pig_Dice_functions.cpp.obj
+.PHONY : Pig_Dice_functions.cpp.obj
+
+Pig_Dice_functions.i: Pig_Dice_functions.cpp.i
+.PHONY : Pig_Dice_functions.i
+
+# target to preprocess a source file
+Pig_Dice_functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pig_Dice_Project.dir\build.make CMakeFiles/Pig_Dice_Project.dir/Pig_Dice_functions.cpp.i
+.PHONY : Pig_Dice_functions.cpp.i
+
+Pig_Dice_functions.s: Pig_Dice_functions.cpp.s
+.PHONY : Pig_Dice_functions.s
+
+# target to generate assembly for a file
+Pig_Dice_functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pig_Dice_Project.dir\build.make CMakeFiles/Pig_Dice_Project.dir/Pig_Dice_functions.cpp.s
+.PHONY : Pig_Dice_functions.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Pig_Dice_Project
+	@echo ... Pig_Dice_functions.obj
+	@echo ... Pig_Dice_functions.i
+	@echo ... Pig_Dice_functions.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

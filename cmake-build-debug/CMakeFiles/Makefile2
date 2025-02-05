@@ -80,12 +80,12 @@ clean: CMakeFiles/Pig_Dice_Project.dir/clean
 CMakeFiles/Pig_Dice_Project.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pig_Dice_Project.dir\build.make CMakeFiles/Pig_Dice_Project.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Pig_Dice_Project.dir\build.make CMakeFiles/Pig_Dice_Project.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Isaac\CLionProjects\Pig_Dice_Project\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target Pig_Dice_Project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Isaac\CLionProjects\Pig_Dice_Project\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target Pig_Dice_Project"
 .PHONY : CMakeFiles/Pig_Dice_Project.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Pig_Dice_Project.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Isaac\CLionProjects\Pig_Dice_Project\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Isaac\CLionProjects\Pig_Dice_Project\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Pig_Dice_Project.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Isaac\CLionProjects\Pig_Dice_Project\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Pig_Dice_Project.dir/rule
