@@ -24,7 +24,26 @@ void display_rules() {
     cout << "* If you roll a 1 you lose all points for the turn." << endl;
     cout << "* If you hold you save all points for the turn." << endl << endl;
 }
+class Die {
+    private:
+    int die_sides;
+    public:
 
+    Die() {
+    die_sides = 6;
+    }
+    Die(int d) {
+        die_sides = d;
+    }
+    int result() {
+        srand(time(0));
+        int die_val = (rand() % die_sides) + 1;
+        return die_val;
+    }
+    int get_result() {
+        return result();
+    }
+};
 void play_game() {
         GameState game;
     game.game_score = 0;
@@ -38,6 +57,7 @@ void play_game() {
         take_turn(game);
     }
     if(game.game_over) {
+        cout << endl;
         cout << "You finished with a score of 20 or higher in " << game.turn_counter << " turns.";
     }
 }
@@ -65,10 +85,12 @@ void take_turn(GameState &game) {
 }
 
 void roll(GameState &game) {
-    srand(time(0));
-    int die_val = (rand() % 6) + 1;
-    cout << "Die: " << die_val << endl;
-    if(die_val == 1) {
+    Die new_die (6);
+    new_die.result();
+    int pig_die_val = new_die.get_result();
+
+    cout << "Die: " << pig_die_val << endl;
+    if(pig_die_val == 1) {
         game.score_this_turn = 0;
         game.turn_over = true;
         game.turn_counter++;
@@ -76,7 +98,7 @@ void roll(GameState &game) {
         cout << "Score for turn: " << game.score_this_turn << endl;
     }
     else {
-        game.score_this_turn += die_val;
+        game.score_this_turn += pig_die_val;
     }
 }
 
