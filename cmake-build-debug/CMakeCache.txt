@@ -154,7 +154,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Pig_Dice_Project
+CMAKE_PROJECT_NAME:STATIC=Pig_Dice_4
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Program Files/JetBrains/CLion 2024.3/bin/mingw/bin/ranlib.exe
@@ -238,6 +238,15 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+
+//Value Computed by CMake
+Pig_Dice_4_BINARY_DIR:STATIC=C:/Users/Isaac/CLionProjects/Pig_Dice_Project/cmake-build-debug
+
+//Value Computed by CMake
+Pig_Dice_4_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Pig_Dice_4_SOURCE_DIR:STATIC=C:/Users/Isaac/CLionProjects/Pig_Dice_Project
 
 //Value Computed by CMake
 Pig_Dice_Project_BINARY_DIR:STATIC=C:/Users/Isaac/CLionProjects/Pig_Dice_Project/cmake-build-debug

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Pig_Dice_Project.dir/Pig_Dice_V2.cpp.obj"
+  "CMakeFiles/Pig_Dice_Project.dir/Pig_Dice_V2.cpp.obj.d"
   "CMakeFiles/Pig_Dice_Project.dir/Pig_Dice_functions.cpp.obj"
   "CMakeFiles/Pig_Dice_Project.dir/Pig_Dice_functions.cpp.obj.d"
   "CMakeFiles/Pig_Dice_Project.dir/main.cpp.obj"

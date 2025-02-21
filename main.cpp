@@ -1,21 +1,8 @@
 #include <iostream>
-#include <cstdlib>
-#include <ctime>
+
+#include "cmake-build-debug/Game.h"
 using namespace std;
-
-struct GameState {
-    int game_score;
-    int score_this_turn;
-    int turn_counter;
-    bool turn_over;
-    bool game_over;
-    char choice;
-};
-
-void display_rules();
-void play_game();
-
+#include "Game.h"
 int main() {
-    display_rules();
-    play_game();
+    Game game;
 }

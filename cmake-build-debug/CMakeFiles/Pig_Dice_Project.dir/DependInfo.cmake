@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/Isaac/CLionProjects/Pig_Dice_Project/Pig Dice V2.cpp" "CMakeFiles/Pig_Dice_Project.dir/Pig_Dice_V2.cpp.obj" "gcc" "CMakeFiles/Pig_Dice_Project.dir/Pig_Dice_V2.cpp.obj.d"
   "C:/Users/Isaac/CLionProjects/Pig_Dice_Project/Pig Dice functions.cpp" "CMakeFiles/Pig_Dice_Project.dir/Pig_Dice_functions.cpp.obj" "gcc" "CMakeFiles/Pig_Dice_Project.dir/Pig_Dice_functions.cpp.obj.d"
   "C:/Users/Isaac/CLionProjects/Pig_Dice_Project/main.cpp" "CMakeFiles/Pig_Dice_Project.dir/main.cpp.obj" "gcc" "CMakeFiles/Pig_Dice_Project.dir/main.cpp.obj.d"
   )
