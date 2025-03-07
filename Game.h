@@ -12,9 +12,11 @@ using namespace std;
 class Game {
     void display_rules();
     Turn turn;
-    bool gameover;
+    bool game_over;
+    int game_score;
     public:
     Game();
+    void play_game();
 
 };
 

@@ -10,8 +10,11 @@
 class Die {
     int die_val;
     int die_sides;
-    int result();
+
 public:
+    Die();
+    Die(int d);
+    int result();
     int get_result();
 };
 #endif //DIE_H

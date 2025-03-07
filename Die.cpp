@@ -1,12 +1,9 @@
 #include "Die.h"
-class Die {
-private:
-    int die_sides;
-public:
-    Die() {
+
+    Die::Die() {
         die_sides = 6;
     }
-    Die(int d) {
+    Die::Die(int d) {
         die_sides = d;
     }
     int Die::result() {
@@ -17,4 +14,3 @@ public:
     int Die::get_result() {
         return result();
     }
-};

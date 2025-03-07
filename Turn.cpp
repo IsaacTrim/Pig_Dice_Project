@@ -42,14 +42,10 @@
         }
     }
     void Turn::hold() {
-        cout << "Score for turn: " << game.score_this_turn << endl;
+        cout << "Score for turn: " << score_this_turn << endl;
         game_score += score_this_turn;
         score_this_turn = 0;
         turn_over = true;
-        if(game_score >= 20) {
-            game_over = true;
-        }
-        else {
-            turn_counter++;
-        }
+        turn_counter++;
+
     };

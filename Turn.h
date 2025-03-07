@@ -15,11 +15,13 @@ class Turn {
     int game_score = 0;
     int score_this_turn = 0;
     char choice;
-    int getTurnCounter();
+
     void roll();
     void hold();
-    public:
+
+public:
     void take_turn();
+    int getTurnCount();
 
 };
 

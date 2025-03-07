@@ -1,5 +1,9 @@
 #include "Game.h"
 using namespace std;
+
+    Game::Game() {
+        play_game();
+    }
     void Game::display_rules() {
         cout << "Let's Play PIG Dice!" << endl;
         cout << endl;
@@ -13,10 +17,10 @@ using namespace std;
         display_rules();
         while(!game_over) {
             turn.take_turn();
+            if(game_score >= 20) {
+                game_over = true;
+            }
         }
-        if(game_over) {
-            cout << endl;
-            cout << "You finished with a score of 20 or higher in " << turn_counter << " turns.";
-        }
+ ;      cout << "You finished with a score of 20 or higher in " << turn.getTurnCount() << " turns.";
+
     }
-}

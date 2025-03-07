@@ -1,13 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2024.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\Isaac\CLionProjects\Pig_Dice_Project -B C:\Users\Isaac\CLionProjects\Pig_Dice_Project\cmake-build-debug
--- Configuring done (0.2s)
-CMake Error at CMakeLists.txt:6 (add_executable):
-  Cannot find source file:
-
-    cmake-build-debug/Game.cpp
-
-
-CMake Error at CMakeLists.txt:6 (add_executable):
-  No SOURCES given to target: Pig_Dice_4
-
-
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+/home/administrator/Downloads/clion-2024.2.1/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S "/home/administrator/CLionProjects/Pig_Dice_Project 4.0" -B "/home/administrator/CLionProjects/Pig_Dice_Project 4.0/cmake-build-debug"
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/administrator/CLionProjects/Pig_Dice_Project 4.0/cmake-build-debug
