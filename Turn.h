@@ -11,7 +11,7 @@ using namespace std;
 class Turn {
     Die die;
     bool turn_over = false;
-    int turn_counter = 0;
+    int turn_counter = 1;
     int game_score = 0;
     int score_this_turn = 0;
     char choice;

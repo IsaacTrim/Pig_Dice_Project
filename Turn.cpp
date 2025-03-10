@@ -4,6 +4,7 @@
 
 #include "Turn.h"
     void Turn::take_turn() {
+        turn_over = false;
         cout << endl << "Turn: " << getTurnCount() << endl;
         while(!turn_over) {
             cout << "roll or hold? (r/h): ";
@@ -47,5 +48,4 @@
         score_this_turn = 0;
         turn_over = true;
         turn_counter++;
-
     };
