@@ -26,6 +26,10 @@
     int Turn::getTurnCount() {
         return turn_counter;
     }
+    int Turn::getGameScore() {
+        return game_score;
+    }
+
     void Turn::roll(){
         Die new_die (6);
         new_die.result();

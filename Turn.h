@@ -22,6 +22,7 @@ class Turn {
 public:
     void take_turn();
     int getTurnCount();
+    int getGameScore();
 
 };
 
