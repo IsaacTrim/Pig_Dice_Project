@@ -10,19 +10,19 @@ using namespace std;
 
 class Turn {
     Die die;
-    bool turn_over = false;
-    int turn_counter = 1;
-    int game_score = 0;
-    int score_this_turn = 0;
+    bool turnOver = false;
+    int turnCounter = 1;
+    int playerScore = 0;
+    int scoreThisTurn = 0;
     char choice;
 
     void roll();
     void hold();
 
 public:
-    void take_turn();
+    void takeTurn();
     int getTurnCount();
-    int getGameScore();
+    int getPlayerScore();
 
 };
 

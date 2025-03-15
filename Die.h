@@ -8,13 +8,13 @@
 #include <ctime>
 
 class Die {
-    int die_val;
-    int die_sides;
+    int dieVal;
+    int dieSides;
 
 public:
     Die();
     Die(int d);
     int result();
-    int get_result();
+    int getResult();
 };
 #endif //DIE_H

@@ -10,4 +10,7 @@ add_executable(Pig_Dice_4 Pig_Dice_4_Core.cpp
         Game.cpp
         Game.h
         Die.cpp
-        Die.h)
+        Die.h
+        Player.cpp
+        2PGame.cpp
+        2PGame.h)

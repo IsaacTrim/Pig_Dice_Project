@@ -10,13 +10,13 @@ using namespace std;
 
 
 class Game {
-    void display_rules();
+    void displayRules();
     Turn turn;
-    bool game_over;
-    int game_score;
+    bool gameOver;
+    int gameScore;
     public:
     Game();
-    void play_game();
+    void playGame();
 
 };
 

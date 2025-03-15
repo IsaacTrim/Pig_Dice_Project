@@ -2,9 +2,9 @@
 using namespace std;
 
     Game::Game() {
-        play_game();
+        playGame();
     }
-    void Game::display_rules() {
+    void Game::displayRules() {
         cout << "Let's Play PIG Dice!" << endl;
         cout << endl;
         cout << "* See how many turns it takes you to get to 20." << endl;
@@ -12,15 +12,15 @@ using namespace std;
         cout << "* If you roll a 1 you lose all points for the turn." << endl;
         cout << "* If you hold you save all points for the turn." << endl << endl;
     }
-    void Game::play_game() {
+    void Game::playGame() {
         Turn turn;
-        game_over = false;
-        display_rules();
-        while(!game_over) {
-            turn.take_turn();
-            game_score = turn.getGameScore();
-            if(game_score >= 20) {
-                game_over = true;
+        gameOver = false;
+        displayRules();
+        while(!gameOver) {
+            turn.takeTurn();
+            gameScore = turn.getGameScore();
+            if(gameScore >= 20) {
+                gameOver = true;
             }
         }
  ;      cout << "You finished with a score of 20 or higher in " << turn.getTurnCount()-1 << " turns.";

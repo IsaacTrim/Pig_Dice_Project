@@ -3,7 +3,7 @@
 #include <ctime>
 using namespace std;
 
-void take_turn();
+void takeTurn();
 void roll();
 void hold();
 
