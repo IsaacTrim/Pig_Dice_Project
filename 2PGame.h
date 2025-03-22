@@ -7,12 +7,12 @@
 #include "Game.h"
 
 class 2PGame : public Game {
-    void displayRules();
-    public:
-    2PGame;
-    void play2PlayerGame();
+    void displayRules()override;
     Player p1;
     Player p2;
+    public:
+    2PGame(string p1Name,string p2Name);
+    void playGame() override;
     Turn p1Turn;
     Turn p2Turn;
     gameOver = false;

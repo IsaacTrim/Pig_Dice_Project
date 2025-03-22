@@ -1,5 +1,4 @@
-
-    2PGame::Game() {
+    2PGame::Game(string p1Name, string p2Name) {
 
     }
     void 2PGame::displayRules() {
@@ -10,7 +9,7 @@
         cout << "* If you roll a 1 you lose all points for the turn." << endl;
         cout << "* If you hold you save all points for the turn." << endl << endl;
     }
-    void 2PGame::play2PlayerGame() {
+    void 2PGame::playGame() {
         displayRules();
         while(!gameOver) {
             p1Turn.takeTurn();
@@ -21,5 +20,6 @@
                 gameOver = true;
             }
         }
-        ;      cout << "You finished with a score of 20 or higher in " << turn.getTurnCount()-1 << " turns.";
+        ;
+        cout << "You finished with a score of 20 or higher in " << turn.getTurnCount()-1 << " turns.";
     }
