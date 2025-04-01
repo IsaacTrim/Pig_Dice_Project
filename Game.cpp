@@ -18,7 +18,7 @@ using namespace std;
         displayRules();
         while(!gameOver) {
             turn.takeTurn();
-            gameScore = turn.getGameScore();
+            gameScore = turn.getPlayerScore();
             if(gameScore >= 20) {
                 gameOver = true;
             }

@@ -1,8 +1,8 @@
-
-    2PGame::Game() {
-
+    #include "twoPGame.h"
+    /*game::twoPGame(){
+/*
     }
-    void 2PGame::displayRules() {
+    void twoPGame::displayRules() {
         cout << "Let's Play PIG Dice!" << endl;
         cout << endl;
         cout << "* See how many turns it takes you to get to 50." << endl;
@@ -10,9 +10,11 @@
         cout << "* If you roll a 1 you lose all points for the turn." << endl;
         cout << "* If you hold you save all points for the turn." << endl << endl;
     }
-    void 2PGame::play2PlayerGame() {
+    void twoPGame::play2PlayerGame(string p1Name, string p2Name) {
         displayRules();
         while(!gameOver) {
+
+            Player player2;
             p1Turn.takeTurn();
             p1Score = p1Turn.getP1Score();
             p2Turn.takeTurn();
@@ -22,4 +24,4 @@
             }
         }
         ;      cout << "You finished with a score of 20 or higher in " << turn.getTurnCount()-1 << " turns.";
-    }
+    */}
