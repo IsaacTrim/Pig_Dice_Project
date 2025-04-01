@@ -1,6 +1,6 @@
     #include "twoPGame.h"
-    /*game::twoPGame(){
-/*
+    game::twoPGame(){
+
     }
     void twoPGame::displayRules() {
         cout << "Let's Play PIG Dice!" << endl;
@@ -24,4 +24,4 @@
             }
         }
         ;      cout << "You finished with a score of 20 or higher in " << turn.getTurnCount()-1 << " turns.";
-    */}
+    }
