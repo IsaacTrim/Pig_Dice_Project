@@ -2,7 +2,7 @@
 using namespace std;
 
     Game::Game() {
-        playGame();
+        //playGame();
     }
     void Game::displayRules() {
         cout << "Let's Play PIG Dice!" << endl;

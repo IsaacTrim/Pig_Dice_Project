@@ -10,12 +10,12 @@ using namespace std;
 class twoPGame : public Game {
     void displayRules();
     public:
-    twoPGame;
-    void play2PlayerGame();
-    Player p1(String pName);
-    Player p2(String pName);
-    Turn p1Turn;
-    Turn p2Turn;
-    gameOver = false;
+    twoPGame();
+    void playGame();
+    string pName[2];
+    int pScore[2];
+    Turn pTurn[2];
+    bool gameOver = false;
+    bool toggle = false;
 };
 #endif //INC_2PGAME_H
