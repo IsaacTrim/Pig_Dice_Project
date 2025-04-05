@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/administrator/CLionProjects/Pig_Dice_Project/Die.cpp" "CMakeFiles/Pig_Dice_4.dir/Die.cpp.o" "gcc" "CMakeFiles/Pig_Dice_4.dir/Die.cpp.o.d"
-  "/home/administrator/CLionProjects/Pig_Dice_Project/Game.cpp" "CMakeFiles/Pig_Dice_4.dir/Game.cpp.o" "gcc" "CMakeFiles/Pig_Dice_4.dir/Game.cpp.o.d"
-  "/home/administrator/CLionProjects/Pig_Dice_Project/Pig_Dice_4_Core.cpp" "CMakeFiles/Pig_Dice_4.dir/Pig_Dice_4_Core.cpp.o" "gcc" "CMakeFiles/Pig_Dice_4.dir/Pig_Dice_4_Core.cpp.o.d"
-  "/home/administrator/CLionProjects/Pig_Dice_Project/Player.cpp" "CMakeFiles/Pig_Dice_4.dir/Player.cpp.o" "gcc" "CMakeFiles/Pig_Dice_4.dir/Player.cpp.o.d"
-  "/home/administrator/CLionProjects/Pig_Dice_Project/Turn.cpp" "CMakeFiles/Pig_Dice_4.dir/Turn.cpp.o" "gcc" "CMakeFiles/Pig_Dice_4.dir/Turn.cpp.o.d"
-  "/home/administrator/CLionProjects/Pig_Dice_Project/main.cpp" "CMakeFiles/Pig_Dice_4.dir/main.cpp.o" "gcc" "CMakeFiles/Pig_Dice_4.dir/main.cpp.o.d"
+  "C:/Users/Isaac/CLionProjects/Pig_Dice_Project/Die.cpp" "CMakeFiles/Pig_Dice_4.dir/Die.cpp.obj" "gcc" "CMakeFiles/Pig_Dice_4.dir/Die.cpp.obj.d"
+  "C:/Users/Isaac/CLionProjects/Pig_Dice_Project/Game.cpp" "CMakeFiles/Pig_Dice_4.dir/Game.cpp.obj" "gcc" "CMakeFiles/Pig_Dice_4.dir/Game.cpp.obj.d"
+  "C:/Users/Isaac/CLionProjects/Pig_Dice_Project/Pig_Dice_4_Core.cpp" "CMakeFiles/Pig_Dice_4.dir/Pig_Dice_4_Core.cpp.obj" "gcc" "CMakeFiles/Pig_Dice_4.dir/Pig_Dice_4_Core.cpp.obj.d"
+  "C:/Users/Isaac/CLionProjects/Pig_Dice_Project/Turn.cpp" "CMakeFiles/Pig_Dice_4.dir/Turn.cpp.obj" "gcc" "CMakeFiles/Pig_Dice_4.dir/Turn.cpp.obj.d"
+  "C:/Users/Isaac/CLionProjects/Pig_Dice_Project/main.cpp" "CMakeFiles/Pig_Dice_4.dir/main.cpp.obj" "gcc" "CMakeFiles/Pig_Dice_4.dir/main.cpp.obj.d"
+  "C:/Users/Isaac/CLionProjects/Pig_Dice_Project/twoPGame.cpp" "CMakeFiles/Pig_Dice_4.dir/twoPGame.cpp.obj" "gcc" "CMakeFiles/Pig_Dice_4.dir/twoPGame.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

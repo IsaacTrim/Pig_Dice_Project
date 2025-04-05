@@ -5,23 +5,25 @@
     void twoPGame::displayRules() {
         cout << "Let's Play PIG Dice!" << endl;
         cout << endl;
-        cout << "* See how many turns it takes you to get to 50." << endl;
+        cout << "* See which player will reach 50 points in the fewest turns." << endl;
         cout << "* Turn ends when you roll a 1." << endl;
         cout << "* If you roll a 1 you lose all points for the turn." << endl;
         cout << "* If you hold you save all points for the turn." << endl << endl;
     }
     void twoPGame::playGame() {
         displayRules();
-        cout << "input name 1";
+        cout << "Enter player 1's name: ";
         getline(cin,pName[0]);
-        cout << "input name 2";
+        cout << "Enter player 2's name: ";
         getline(cin,pName[1]);
         while(!gameOver) {
+            cout << endl << pName[toggle] << " (Score:" << pScore[toggle] << ") ";
             pTurn[toggle].takeTurn();
             pScore[toggle] = pTurn[toggle].getPlayerScore();
             if(pScore[toggle] >= 50) {
                 if(toggle == 0) {
                     toggle = !toggle;
+                    cout << endl << pName[toggle] << " (Score:" << pScore[toggle] << ") ";
                     pTurn[toggle].takeTurn();
                     pScore[toggle] = pTurn[toggle].getPlayerScore();
                 }
@@ -32,9 +34,11 @@
         ;
 
         if(pScore[0] >= pScore[1]) {
-            cout << pName[0] << " finished with a score of 50 or higher in " << pTurn[0].getTurnCount()-1 << " turns.";
+            toggle = 0;
         }
         else {
-            cout << pName[1] << " finished with a score of 50 or higher in " << pTurn[1].getTurnCount()-1 << " turns.";
+            toggle = 1;
         }
+        cout << "Congratulations " << pName[toggle] << " you're the winner!" << endl << "You had a final score of " << pScore[toggle] << " points after " << pTurn[toggle].getTurnCount()-1 << " turns!" << endl;
+        cout << "THANKS FOR PLAYING! " << endl;
     }

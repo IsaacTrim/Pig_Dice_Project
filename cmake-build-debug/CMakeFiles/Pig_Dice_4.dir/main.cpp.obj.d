@@ -153,4 +153,5 @@ CMakeFiles/Pig_Dice_4.dir/main.cpp.obj: \
  C:\Users\Isaac\CLionProjects\Pig_Dice_Project\Game.h \
  C:\Users\Isaac\CLionProjects\Pig_Dice_Project\Turn.h \
  C:\Users\Isaac\CLionProjects\Pig_Dice_Project\Die.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime
+ C:/Program\ Files/JetBrains/CLion\ 2024.3/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime \
+ C:\Users\Isaac\CLionProjects\Pig_Dice_Project\twoPGame.h
